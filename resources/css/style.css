@@ -1,0 +1,142 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: white;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+header {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	border-bottom: 1px solid white;
+	z-index: 100;
+	top: 0;
+	height: 105px;
+	background-color: black;
+}
+header .logo img {
+ 	width: 180px;
+ 	padding: 20px;
+}
+header ul li {
+	display: inline-flex;
+	list-style: none;	
+}
+header a {
+	color: white;
+	padding: 20px;
+	font-size: 1.5rem;
+}
+img {
+	width: 300px;
+}
+h2 {
+	font-size: 2.25rem;
+}
+#mission, #featured-tea, #locations {
+	padding-top: 106px;
+}
+.wrapper {
+	position: relative;
+	margin: 0 50px;
+}
+.container {
+	background-image: url(../images/img-mission-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main {
+	background-color: black;
+	width: 100%;
+}
+
+.main h2, h4 {
+	padding: 0 20px;
+	margin: 20px 0;
+	text-align: center;
+}
+.tea-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 70%;
+    margin: auto;
+}
+.tea-container .tea-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	width: 100%;
+}
+.tea-title h2 {
+	margin: 20px;
+/*	padding-top: 40px;*/
+}
+.tea-title p {
+	font-weight: bold;
+	padding-bottom: 16px;
+	margin: 10px;
+}
+.tea-container .items {
+	margin: 0 20px;
+	text-align: center;
+}
+.location-container {
+	background-image: url(../images/img-locations-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.location h2 {
+	width: 100%;
+}
+.address {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+.address .items {
+	background-color: black;
+    width: 300px;
+	height: 300px;
+	margin:0 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	line-height: 2.5;
+}
+.address .items p {
+	margin: 0;
+}
+
+.contact {
+	background-color: black;
+	text-align: center;
+	height: 200px;
+}
+.contact p {
+	line-height: 1.8;
+}
+footer {
+	position: relative;
+	text-align: left;
+	padding: 10px 20px;
+	margin: 10px 0;
+}
